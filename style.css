@@ -62,3 +62,19 @@ footer {
     display: flex;
     align-items: center;
 }
+
+.search-btn, .good-day {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+}
+
+.search-btn:hover, .good-day:hover {
+    border: solid 1px #dfe1e5;
+    box-shadow: 0 1px 1px #dfe1e5;
+}
