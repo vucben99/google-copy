@@ -20,6 +20,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/*Segédvonalak*/
 div, nav, main, footer {
     border: dashed 1px;
 }
@@ -96,4 +97,12 @@ footer {
     border: solid 1px #dfe1e5;
     box-shadow: 0 1px 1px #dfe1e5;
     cursor: pointer;
+}
+
+.nav-links {
+    padding-right: 25px;
+}
+
+.menu-icon {
+    font-size: 21px;
 }
