@@ -21,11 +21,11 @@ a {
     text-decoration: none;
 }
 
-nav a {
+.nav-links a {
     padding-left: 15px;
 }
 
-nav a:hover {
+.nav-links a:hover {
     text-decoration: underline;
 }
 
@@ -119,6 +119,15 @@ footer {
     width: 32px;
     border-radius: 50%;
     margin-left: 16px;
+}
+
+.profile-pic::after {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: solid 3px #9a9c9d;
+    border-radius: 50%;
 }
 
 .menu-and-profile {
