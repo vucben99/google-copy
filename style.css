@@ -30,14 +30,15 @@ nav a:hover {
 }
 
 /*Segédvonalak*/
-div, nav, main, footer {
+/* div, nav, main, footer {
     border: dashed 1px;
-}
+} */
 
 
 
 nav {
     height: 60px;
+    padding: 12px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -106,5 +107,21 @@ footer {
 }
 
 .menu-icon {
-    font-size: 21px;
+    font-size: 18px;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+}
+
+.profile-pic {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-left: 16px;
+}
+
+.menu-and-profile {
+    display: flex;
+    align-items: center;
 }
