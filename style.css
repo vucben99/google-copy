@@ -1,10 +1,19 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
     font-family: Arial, sans-serif;
     font-size: 13px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 a {
@@ -25,14 +34,7 @@ div, nav, main, footer {
     border: dashed 1px;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
 
 nav {
     height: 60px;
