@@ -121,16 +121,16 @@ footer {
     margin-left: 16px;
 }
 
-.profile-pic::after {
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    background-color: black;
-    border: solid 3px #9a9c9d;
-    border-radius: 50%;
-}
-
 .menu-and-profile {
     display: flex;
     align-items: center;
+}
+
+.menu-icon-container:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    border-radius: 50%;
+    background-color: #dfe1e5;
 }
