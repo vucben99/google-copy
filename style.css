@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* border: dashed 1px; */
 }
 
 html {
@@ -28,13 +29,6 @@ a {
 .nav-links a:hover {
     text-decoration: underline;
 }
-
-/*Segédvonalak*/
-/* div, nav, main, footer {
-    border: dashed 1px;
-} */
-
-
 
 nav {
     height: 60px;
@@ -138,4 +132,18 @@ footer {
 
 .button-container {
     padding-top: 18px;
+}
+
+footer {
+    height: 94px;
+    background-color: #f2f2f2;
+}
+
+.footer-top {
+    height: 50%;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-bottom {
+    height: 50%;
 }
