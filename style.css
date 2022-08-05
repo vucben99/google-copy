@@ -121,12 +121,17 @@ footer {
     align-items: center;
 }
 
-.menu-icon-container:hover {
+.menu-icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10%;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+}
+
+.menu-icon-container:hover {
+    cursor: pointer;
     background-color: #dfe1e5;
 }
 
@@ -142,6 +147,9 @@ footer {
 .footer-top {
     height: 50%;
     border-bottom: 1px solid #dadce0;
+    color: #70757A;
+    font-size: 15px;
+    padding: 15px 30px;
 }
 
 .footer-bottom {
